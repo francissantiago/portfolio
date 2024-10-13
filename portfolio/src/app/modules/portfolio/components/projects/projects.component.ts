@@ -81,20 +81,6 @@ export class ProjectsComponent {
     },
     {
       src: 'assets/img/projects/pagseguro.png',
-      alt: 'Checkout Transparente PagSeguro - Cartão de Crédito',
-      title: 'Checkout Transparente PagSeguro - Cartão de Crédito',
-      width: '100px',
-      height: '51px',
-      description: 'Biblioteca PHP para aceitação de pagamentos via PagSeguro na função Crédito',
-      links: [
-        {
-          name: 'ACESSAR PROJETO',
-          href: 'https://github.com/LightBurdenOfficial/Checkout_Transparente_Credito/',
-        }
-      ]
-    },
-    {
-      src: 'assets/img/projects/pagseguro.png',
       alt: 'Checkout Transparente PagSeguro - Cartão de Débito',
       title: 'Checkout Transparente PagSeguro - Cartão de Débito',
       width: '100px',

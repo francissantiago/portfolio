@@ -1,5 +1,5 @@
 ::ng-deep .dialog-container-projects .mdc-dialog__container {
-    width: 850px;
+    width: 900px !important;
 }
 
 :host {
@@ -17,11 +17,11 @@
 
     header {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
 
         h2 {
-            font-size: 22px;
+            font-size: 18px !important;
             padding: 0;
             margin: 0;
             color: var(--black-010);
@@ -36,7 +36,7 @@
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 16px !important;
         color: var(--black-010);
     }
 
@@ -44,7 +44,7 @@
         margin-bottom: 15px;
 
         p {
-            font-size: 16px;
+            font-size: 14px !important;
         }
     }
 
