@@ -21,7 +21,7 @@ import { DialogProjectsComponent } from '../dialog/dialog-projects/dialog-projec
 })
 export class ProjectsComponent {
   #dialog = inject(MatDialog);
-  
+
   public arrayProjects = signal<IProjects[]>([
     {
       src: 'assets/img/projects/sperocoin.png',
@@ -29,7 +29,10 @@ export class ProjectsComponent {
       title: 'SperoCoin',
       width: '100px',
       height: '51px',
-      description: 'Criptomoeda com algoritmo x13 lançada em 2017.',
+      description: 'A <b>SperoCoin</b> é um projeto de criptomoeda com algoritmo x13 com blockchain própria.<br>\
+        O projeto foi lançado em 2017, sendo mantido até os dias atuais.<br>\
+        A intenção deste projeto é reduzir diferenças econômicas e sociais entre a população, sendo que, ao mesmo tempo,\
+        elas são expostas ao aprendizado de utilização de uma criptomoeda e seu sistema descentralizado.',
       links: [
         {
           name: 'ACESSAR PROJETO',
@@ -43,7 +46,9 @@ export class ProjectsComponent {
       title: 'BlackFine Burguer',
       width: '100px',
       height: '51px',
-      description: 'Aplicação de delivery desenvolvida em PHP/PWA',
+      description: 'Primeira aplicação de delivery desenvolvida em PHP/PWA em 2022 de forma comercial.<br>\
+        O projeto envolve múltiplas áreas de conhecimento como banco de dados, sistema de notitficações, gerenciamento de perfis de usuário, cupons de desconto,\
+        dentre outras funcionalidades.',
       links: [
         {
           name: 'ACESSAR PROJETO',
@@ -57,7 +62,9 @@ export class ProjectsComponent {
       title: 'Ekklesia',
       width: '100px',
       height: '51px',
-      description: 'Aplicação para gerenciamento de igrejas desenvolvida em PHP/PWA',
+      description: 'Aplicação para gerenciamento de igrejas desenvolvida em PHP/PWA, onde a finalidade da aplicação é reunir informações de membros e compartilhamento entre\
+        as igrejas.<br>\
+        A finalidade é reduzir os golpes e falsos membros dentro dos ministérios em comum.',
       links: [
         {
           name: 'ACESSAR PROJETO',
@@ -75,7 +82,7 @@ export class ProjectsComponent {
       links: [
         {
           name: 'ACESSAR PROJETO',
-          href: 'https://github.com/LightBurdenOfficial/Checkout_Transparente_Credito/',
+          href: 'https://github.com/francissantiago/Checkout_Transparente_Credito/',
         }
       ]
     },
@@ -89,7 +96,7 @@ export class ProjectsComponent {
       links: [
         {
           name: 'ACESSAR PROJETO',
-          href: 'https://github.com/LightBurdenOfficial/Checkout_Transparente_Debito/',
+          href: 'https://github.com/francissantiago/Checkout_Transparente_Debito/',
         }
       ]
     },
@@ -103,7 +110,7 @@ export class ProjectsComponent {
       links: [
         {
           name: 'ACESSAR PROJETO',
-          href: 'https://github.com/LightBurdenOfficial/Checkout_Transparente_PIX/',
+          href: 'https://github.com/francissantiago/Checkout_Transparente_PIX/',
         }
       ]
     },
@@ -113,7 +120,7 @@ export class ProjectsComponent {
       title: 'Premiação de participação no projeto Bitcoin',
       width: '100px',
       height: '51px',
-      description: 'Participação, sendo destaque no mês de Fevereiro de 2022, nas traduções de strings na documentação do Bitcoin.',
+      description: 'Participação, sendo destaque no mês de Fevereiro de 2022, nas traduções de trechos na documentação oficial do Bitcoin.',
       links: [
         {
           name: 'VER PREMIAÇÃO',
@@ -149,9 +156,23 @@ export class ProjectsComponent {
         }
       ]
     },
+    {
+      src: 'assets/img/projects/radiomemory.png',
+      alt: 'XWork Connect PHP',
+      title: 'XWork Connect PHP',
+      width: '100px',
+      height: '51px',
+      description: 'Uma biblioteca para gerenciar conexões com banco de dados XWF e Firebird na aplicação Gestão Profissional da empresa Radio Memory.',
+      links: [
+        {
+          name: 'ACESSAR PROJETO',
+          href: 'https://github.com/francissantiago/xWorkConnect-PHP',
+        }
+      ]
+    },
   ]);
-  
-  public openDialog(data: IProjects){
+
+  public openDialog(data: IProjects) {
     this.#dialog.open(DialogProjectsComponent, {
       data,
       panelClass: EDialogPanelClass.PROJECTS

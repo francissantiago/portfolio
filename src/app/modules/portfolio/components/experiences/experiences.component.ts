@@ -17,7 +17,7 @@ export class ExperiencesComponent {
         strong: 'Desenvolvedor Angular',
         p: 'Radio Memory | 2024 - Data Atual',
       },
-      text: '',
+      text: 'Como desenvolvedor Júnior na Radio Memory executo tarefas de desenvolvimento de componentes para serviços, componentes e aplicações internas.',
     },
     {
       summary: {
@@ -31,14 +31,14 @@ export class ExperiencesComponent {
         strong: 'Desenvolvedor PHP',
         p: 'Desenvolvedor autônomo | 2016 - Data Atual',
       },
-      text: 'Como profissional de desenvolvimento de aplicações PHP, destaco minhas habilidades na criação de soluções robustas e eficientes, utilizando PHP tanto com quanto sem a integração de banco de dados MySQL. Minha experiência abrange desde o desenvolvimento de sistemas dinâmicos até a criação de aplicações Progressivas para a Web (PWA), proporcionando experiências de usuário responsivas e envolventes. Tenho expertise em implementar arquiteturas eficientes, garantindo desempenho otimizado e segurança. Além disso, meu compromisso com as melhores práticas de desenvolvimento e a busca contínua por atualizações tecnológicas me permitem oferecer soluções inovadoras e de alta qualidade.',
+      text: 'Em aplicações PHP, destaco minhas habilidades na criação de soluções robustas e eficientes, utilizando PHP tanto com quanto sem a integração de banco de dados MySQL. Minha experiência abrange desde o desenvolvimento de sistemas dinâmicos até a criação de aplicações Progressivas para a Web (PWA), proporcionando experiências de usuário responsivas e envolventes. Tenho expertise em implementar arquiteturas eficientes, garantindo desempenho otimizado e segurança. Além disso, meu compromisso com as melhores práticas de desenvolvimento e a busca contínua por atualizações tecnológicas me permitem oferecer soluções inovadoras e de alta qualidade.',
     },
     {
       summary: {
         strong: 'Manutenção de Hardware',
         p: 'Hope Assistência Técnica | 2017 - 2019',
       },
-      text: 'Como profissional altamente capacitado em assistência técnica, trago habilidades especializadas na manutenção de hardware. Minhas rotinas diárias envolvem a análise meticulosa de componentes eletrônicos, diagnóstico preciso de falhas e a implementação de soluções eficientes para otimizar o desempenho de dispositivos. Realizo com destreza a desmontagem e remontagem de equipamentos, efetuando reparos, substituições de peças e, quando necessário, realizando soldas. Minha expertise se estende à limpeza preventiva, garantindo que os dispositivos operem de maneira eficaz, prevenindo problemas decorrentes do acúmulo de poeira e sujeira. Além disso, mantenho uma documentação detalhada de cada intervenção realizada, assegurando transparência e rastreabilidade no processo de manutenção.',
+      text: 'Na área da assistência técnica, trago habilidades especializadas na manutenção de hardware. Minhas rotinas diárias envolvem a análise meticulosa de componentes eletrônicos, diagnóstico preciso de falhas e a implementação de soluções eficientes para otimizar o desempenho de dispositivos. Realizo com destreza a desmontagem e remontagem de equipamentos, efetuando reparos, substituições de peças e, quando necessário, realizando soldas. Minha expertise se estende à limpeza preventiva, garantindo que os dispositivos operem de maneira eficaz, prevenindo problemas decorrentes do acúmulo de poeira e sujeira. Além disso, mantenho uma documentação detalhada de cada intervenção realizada, assegurando transparência e rastreabilidade no processo de manutenção.',
     },
     {
       summary: {
