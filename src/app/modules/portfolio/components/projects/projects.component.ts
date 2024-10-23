@@ -170,6 +170,21 @@ export class ProjectsComponent {
         }
       ]
     },
+    {
+      src: 'assets/img/projects/lista-de-tarefas.png',
+      alt: 'Lista de Tarefas - ANGULAR',
+      title: 'Lista de Tarefas - ANGULAR',
+      width: '100px',
+      height: '51px',
+      description: 'Desenvolvida em Angular, essa lista de tarefas foi criada à partir de um projeto do curso "Curso de Angular 2 (v17+) Typescript do Básico ao Avançado" do instrutor Dener Troquatte.<br>\
+        Foram utilizadas técnicas de localStorage, @Input e @Output, além de Signal.' ,
+      links: [
+        {
+          name: 'ACESSAR PROJETO',
+          href: 'https://francissantiago.github.io/Angular-ListaDeTarefas/',
+        }
+      ]
+    },
   ]);
 
   public openDialog(data: IProjects) {
