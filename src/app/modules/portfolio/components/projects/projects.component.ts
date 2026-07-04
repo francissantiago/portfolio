@@ -41,6 +41,105 @@ export class ProjectsComponent {
       ]
     },
     {
+      src: 'assets/img/projects/github.png',
+      alt: 'API Gateway Rate Limiter',
+      title: 'API Gateway Rate Limiter',
+      width: '50px',
+      height: '50px',
+      description: 'Proteja APIs internas contra o uso abusivo de requisições e reduza os custos de infraestrutura evitando consultas repetidas ao banco de dados.',
+      links: [
+        {
+          name: 'ACESSAR PROJETO',
+          href: 'https://github.com/francissantiago/api-gateway-rate-limiter',
+        }
+      ]
+    },
+    {
+      src: 'assets/img/projects/github.png',
+      alt: 'Bank Reconcilation API',
+      title: 'Bank Reconcilation API',
+      width: '50px',
+      height: '50px',
+      description: 'Esta é uma API Backend (Node.js/TypeScript) que aceita o upload de um arquivo de extrato, processa os dados de forma performática e faz o batimento com uma tabela de "Contas a Receber" no banco de dados (MySQL 8).',
+      links: [
+        {
+          name: 'ACESSAR PROJETO',
+          href: 'https://github.com/francissantiago/bank-reconciliation-api',
+        }
+      ]
+    },
+    {
+      src: 'assets/img/projects/atelie-santiago.png',
+      alt: 'Social Hub Ateliê Santiago',
+      title: 'Social Hub Ateliê Santiago',
+      width: '90px',
+      height: '90px',
+      description: 'Social Hub da empresa Ateliê Santiago - Governador Valadares',
+      links: [
+        {
+          name: 'ACESSAR PROJETO',
+          href: 'https://github.com/francissantiago/atelie-santiago-social-hub-page',
+        }
+      ]
+    },
+    {
+      src: 'assets/img/projects/x-minas.svg',
+      alt: 'X-Minas Jogo Multiplayer',
+      title: 'X-Minas Jogo Multiplayer',
+      width: '90px',
+      height: '90px',
+      description: 'Jogo de estratégia para 2 jogadores com tabuleiro dinâmico (colunas A–H e até 20 linhas).<br>\
+                    Modos: offline (mesmo dispositivo), LAN (rede local) e online (WebSocket).',
+      links: [
+        {
+          name: 'ACESSAR PROJETO',
+          href: 'https://github.com/francissantiago/app-X-Minas-Jogo-Multiplayer-PWA',
+        }
+      ]
+    },
+    {
+      src: 'assets/img/projects/preco-facil.png',
+      alt: 'Preço Fácil',
+      title: 'Preço Fácil',
+      width: '70px',
+      height: '70px',
+      description: 'Preço Fácil é um aplicativo PWA/Mobile desenvolvido com Ionic e Angular para ajudar freelancers e empreendedores a precificarem seus serviços de forma justa e profissional.',
+      links: [
+        {
+          name: 'ACESSAR PROJETO',
+          href: 'https://github.com/francissantiago/preco-facil-angular',
+        }
+      ]
+    },
+    {
+      src: 'assets/img/projects/github.png',
+      alt: 'JassCakes Website',
+      title: 'JassCakes Website',
+      width: '70px',
+      height: '70px',
+      description: 'Site institucional da empresa JassCakes.',
+      links: [
+        {
+          name: 'ACESSAR PROJETO',
+          href: 'https://github.com/francissantiago/jasscakes-website',
+        }
+      ]
+    },
+    {
+      src: 'assets/img/projects/github.png',
+      alt: 'Angular Simple Blockchain',
+      title: 'Angular Simple Blockchain',
+      width: '70px',
+      height: '70px',
+      description: 'Blockchain simples desenvolvido com Angular 18.',
+      links: [
+        {
+          name: 'ACESSAR PROJETO',
+          href: 'https://github.com/francissantiago/Angular-SimpleBlockchain',
+        }
+      ]
+    },
+    {
       src: 'assets/img/projects/blackfineburguer.png',
       alt: 'BlackFine Burguer',
       title: 'BlackFine Burguer',

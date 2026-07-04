@@ -1,14 +1,23 @@
 <div class="container">
-    <h2>PROJETOS DESENVOLVIDOS</h2>
+  <h2>PROJETOS DESENVOLVIDOS</h2>
 
-    <ul>
-        @for(item of arrayProjects(); track item){
-        <li>
-            <button (click)="openDialog(item)">
-                <img [src]="item.src" [alt]="item.alt" [attr.width]="item.width" [attr.height]="item.height"
-                    loading="lazy" />
-            </button>
-        </li>
-        }
-    </ul>
+  <ul>
+    @for (item of arrayProjects(); track item) {
+      <li>
+        <button
+          (click)="openDialog(item)"
+          title="Clique para ver mais detalhes do projeto {{ item.title }}"
+        >
+          <img
+            [src]="item.src"
+            [alt]="item.alt"
+            [attr.width]="item.width"
+            [attr.height]="item.height"
+            loading="lazy"
+            title="Clique para ver mais detalhes do projeto {{ item.title }}"
+          />
+        </button>
+      </li>
+    }
+  </ul>
 </div>
