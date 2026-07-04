@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:githubPages": "npx ng build --base-href 'https://francissantiago.github.io/portfolio/'",
+    "build:githubPages": "npx ng build --base-href \"https://francissantiago.github.io/portfolio/\"",
     "deploy": "npm run build:githubPages && npx angular-cli-ghpages --dir=dist/browser"
   },
   "private": true,
